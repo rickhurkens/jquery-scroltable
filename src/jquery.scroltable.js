@@ -1,5 +1,5 @@
 /**
- * jQuery ScrolTable v1.0.2
+ * jQuery ScrolTable v1.0.3
  * https://github.com/rickhurkens/jquery-scroltable
  *
  * Copyright 2016 Tim Wong
@@ -112,6 +112,7 @@
       $(this).closest('.scroltable-wrapper')
         .children('.scroltable-nav').on('click.scroltable-wrapper', clickToScroll).end()
         .children('.scroltable-container').on('scroll.scroltable-wrapper', toggleNav.bind(this));
+      toggleNav.call(this);
     });
     $(win)
       .off('resize.scroltable-wrapper')

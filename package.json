@@ -1,6 +1,6 @@
 {
   "name": "jquery-scroltable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight jQuery plugin to create scrollable tables for better mobile experience.",
   "main": "src/jquery.scroltable.js",
   "scripts": {
